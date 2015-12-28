@@ -15,39 +15,28 @@
 }
 
 <<<<<<< HEAD
+.header .navbar{
+	background-color: #34495E;
+	border-color: #34495E;
+	border-radius: 0;
+}
+.navbar-default{
+	margin-bottom: 0;
+}
 
+.content-home{
+	background: url(../images/slider/bg1.jpg);
+	background-size: cover;
+	padding-top: 250px;
+	padding-bottom: 250px;
+	padding-left: 50px;
+	color: #fff;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.content-social{
+	background-color: #2ECC71;
+	color: #fff;
+}
 /*clientes*/
 .clients{
 	background: #F63737;
@@ -75,25 +64,3 @@
 }
 
 =======
-.header .navbar{
-	background-color: #34495E;
-	border-color: #34495E;
-	border-radius: 0;
-}
-.navbar-default{
-	margin-bottom: 0;
-}
-
-.content-home{
-	background: url(../images/slider/bg1.jpg);
-	background-size: cover;
-	padding-top: 250px;
-	padding-bottom: 250px;
-	padding-left: 50px;
-	color: #fff;
-
-}
-.content-social{
-	background-color: #2ECC71;
-	color: #fff;
-}
