@@ -24,12 +24,9 @@
 	margin-bottom: 0;
 }
 
-.content-home{
-	background: url(../images/slider/bg1.jpg);
-	background-size: cover;
-	padding-top: 250px;
-	padding-bottom: 250px;
-	padding-left: 50px;
+.carousel-caption{
+	text-align: left;
+	margin-bottom: 190px;
 	color: #fff;
 
 }
