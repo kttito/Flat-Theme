@@ -170,5 +170,162 @@
 .content-inf .prof{
 	background-color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*About us*/
+.bloque{
+	background: #E6E6E6;
+}
+.weare {
+	padding: 40px 0;
+}
+.weare p{
+	text-align: justify;
+}
+.team{
+	padding: 40px 0 50px 0;
+}
+.miembros{
+	margin-top:30px;
+}
+.miembros img{
+	border-radius: 50%;
+	border:3px solid #FFFFFF;
+}
+.redes ul{
+	padding:0px;
+}
+.redes li{
+	display: inline-block;
+	
+}
+.redes i{
+	color: #FFFFFF;
+	font-size: 120%;
+	padding-left:0px;
+}
+.icon1 {
+background: #0261C1;
+height: 40px;
+width: 40px;
+border-radius: 50%;
+padding-top: 10px;
+text-align: center;
+}
+
+.icon2 {
+background: #EB4C30;
+height: 40px;
+width: 40px;
+border-radius: 50%;
+padding-top: 10px;
+text-align: center;
+}
+.icon3 {
+background: #05DDDA;
+height: 40px;
+width: 40px;
+border-radius: 50%;
+padding-top: 10px;
+text-align: center;
+}
+.icon4 {
+background: #0282C3;
+height: 40px;
+width: 40px;
+border-radius: 50%;
+padding-top: 10px;
+text-align: center;
+}
 =======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
