@@ -20,15 +20,42 @@
 	border-color: #34495E;
 	border-radius: 0;
 }
+.navbar-header img{
+	margin-left: 44px;
+	margin-top: 9px;
+}
 .navbar-default{
 	margin-bottom: 0;
+	background-color: #34495E;
+	border-color: #34495E;
+	border-radius: 0;
+	
 }
-
+.navbar-collapse .navbar-nav.navbar-right:last-child{
+	margin-right: 44px;
+}
+.navbar-nav > li > a {
+    padding-top: 8px;
+    padding-bottom: 11px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    border-radius: 4%;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #949EA7;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus{
+	color: #fff;
+	background-color: #2C3E50;
+}
 .carousel-caption{
 	text-align: left;
 	margin-bottom: 190px;
 	color: #fff;
-
+	left: 5%;
+	right: 5%;
 }
 .content-social{
 	background-color: #2ECC71;
