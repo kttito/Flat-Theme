@@ -28,8 +28,7 @@
 	margin-bottom: 0;
 	background-color: #34495E;
 	border-color: #34495E;
-	border-radius: 0;
-	
+	border-radius: 0;	
 }
 .navbar-default .navbar-nav>li>a:hover{
 	color: #fff;
@@ -110,7 +109,6 @@
 .titulos h4{
 	margin-left: 20px;
 }
-
 /*foot1*/
 .foot1{
 	background: #34495E;
@@ -147,4 +145,30 @@
     background-color: #D9534F;
     border-color: #D9534F;
 }
+/*Blog*/
+.content-intro{
+	background-color: #2ECC71;
+	color: #fff;
+	padding: 40px 0;
+}
+.content-intro h1{
+	font-weight: normal;
+}
+.content-intro .home a{
+	text-decoration: none;
+	color: #fff;
+}
+.home{
+	padding-top: 45px;
+}
+.home a .atenuado{
+	color: #A4E9C1;
+}
+.content-inf{
+	background-color: #F5F5F5;
+}
+.content-inf .prof{
+	background-color: #fff;
+}
 =======
+
