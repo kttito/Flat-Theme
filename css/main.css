@@ -156,20 +156,23 @@
 }
 .content-intro .home a{
 	text-decoration: none;
-	color: #fff;
+	color: #BEEFD3;
 }
 .home{
 	padding-top: 45px;
 }
-.home a .atenuado{
-	color: #A4E9C1;
+.home a:hover{
+	color: #fff;
 }
+
 .content-inf{
 	background-color: #F5F5F5;
 }
 .content-inf .prof{
 	background-color: #fff;
 }
+
+
 
 
 
@@ -303,6 +306,31 @@ border-radius: 50%;
 padding-top: 10px;
 text-align: center;
 }
+
+=======
+.prof ul{
+	list-style: none;
+	padding: 10px;
+}
+.prof li{
+	display: inline-block;
+}
+.prof li a{
+	text-decoration: none;
+	color: #999999;
+}
+/*----Contact-----*/
+.content-contac{
+	padding: 35px 0 45px 0;
+}
+.content-contac .msj-form{
+	padding-top: 57px;
+}
+
+
+
+
+>>>>>>> a7587f3dd5592cbfac06431b0d54b4cb2651a353
 =======
 
 
