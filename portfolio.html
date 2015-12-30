@@ -10,6 +10,8 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/ekko-lightbox.min.css" rel="stylesheet">
+    <link href="css/dark.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -75,21 +77,21 @@
                 <div class="row">
                     <ul>
                         <div class="col-md-4">  
-                             <li><a href="#">
+                             <li><a href="images/portfolio/full/item1.jpg" data-gallery="galeria" data-toggle="lightbox">
                                 <img class="foto" src="images/portfolio/thumb/item1.jpg">
                              <h4>Lorem ipsum dolor sit amet</h4>
                              </a>
                              </li>
                          </div>
                         <div class="col-md-4">
-                             <li> <a href="#">
+                             <li> <a href="images/portfolio/full/item2.jpg" data-gallery="galeria" data-toggle="lightbox">
                              <img class="foto" src="images/portfolio/thumb/item2.jpg">    
                              <h4>Lorem ipsum dolor sit amet</h4>
                              </a>
                              </li>
                         </div>
                         <div class="col-md-4">  
-                           <li> <a href="#">
+                           <li> <a href="images/portfolio/full/item3.jpg" data-gallery="galeria" data-toggle="lightbox">
                                <img class="foto" src="images/portfolio/thumb/item3.jpg">
                                <h4>Lorem ipsum dolor sit amet</h4>
                                </a>
@@ -100,21 +102,21 @@
                  <div class="row">
                     <ul>
                         <div class="col-md-4">  
-                             <li><a href="#">
+                             <li><a href="images/portfolio/full/item4.jpg" data-gallery="galeria" data-toggle="lightbox">
                                 <img class="foto" src="images/portfolio/thumb/item4.jpg">
                              <h4>Lorem ipsum dolor sit amet</h4>
                              </a>
                              </li>
                          </div>
                         <div class="col-md-4">
-                             <li> <a href="#">
+                             <li> <a href="images/portfolio/full/item5.jpg" data-gallery="galeria" data-toggle="lightbox">
                              <img class="foto" src="images/portfolio/thumb/item5.jpg">    
                              <h4>Lorem ipsum dolor sit amet</h4>
                              </a>
                              </li>
                         </div>
                         <div class="col-md-4">  
-                           <li> <a href="#">
+                           <li> <a href="images/portfolio/full/item6.jpg" data-gallery="galeria" data-toggle="lightbox">
                                <img class="foto" src="images/portfolio/thumb/item6.jpg">
                                <h4>Lorem ipsum dolor sit amet</h4>
                                </a>
@@ -219,5 +221,14 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/ekko-lightbox.min.js"></script>
+    <script>
+    jQuery(document).ready(function(){
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    });
+    </script>
 </body>
 </html>
