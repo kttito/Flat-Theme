@@ -14,15 +14,14 @@
   clear: both;
 }
 
-<<<<<<< HEAD
 .header .navbar{
 	background-color: #34495E;
 	border-color: #34495E;
 	border-radius: 0;
 }
 .navbar-header img{
-	margin-left: 44px;
-	margin-top: 9px;
+	/*margin-left: 44px;
+	margin-top: 9px;*/
 }
 .navbar-default{
 	margin-bottom: 0;
@@ -54,7 +53,8 @@
 }
 .carousel-caption{
 	text-align: left;
-	margin-bottom: 190px;
+	/*margin-bottom: 190px;*/
+	bottom:30%;
 	color: #fff;
 	left: 5%;
 	right: 5%;
@@ -328,9 +328,6 @@ text-align: center;
 }
 
 
-
-
->>>>>>> a7587f3dd5592cbfac06431b0d54b4cb2651a353
 =======
 
 
@@ -356,4 +353,11 @@ text-align: center;
 
 
 
+
+=======
+@media screen and (max-width: 768px) {
+    .carousel-caption{
+        bottom: 5%;
+    }
+}
 
