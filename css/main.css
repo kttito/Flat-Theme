@@ -233,14 +233,6 @@
 
 
 
-
-
-
-
-
-
-
-
 /*About us*/
 .bloque{
 	background: #E6E6E6;
@@ -353,6 +345,28 @@ text-align: center;
 	margin-bottom: 0;
 	padding-left: 10px;
 	text-align: left;
+}
+
+/*Servicios*/
+.services{
+	background-color: #2ECC71;
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.app{
+	height: 60px;
+	width: 60px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 50%;
+	padding-top: 14px;
+	text-align: center;
+	margin-top: 23px;
+}
+.icon-app{
+	
+	color: #fff;
+	font-size: 35px;
 }
 
 =======
