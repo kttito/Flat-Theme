@@ -327,6 +327,32 @@ text-align: center;
 	padding-top: 57px;
 }
 
+/*portafolio*/
+
+.portafolio{
+	background-color: #f4f4f4;
+	padding: 40px 0 40px 0;
+}
+.porta{
+	text-align: center;
+	padding:20px;
+}
+.porta ul li{
+	list-style: none;
+	text-decoration: none;
+	background: #FFFFFF;
+	margin-bottom: 20px;
+}
+.porta img{
+	padding-top: 10px;
+	height: 220px;
+}
+.porta h4{
+	color:#2D323A;
+	margin-bottom: 0;
+	padding-left: 10px;
+	text-align: left;
+}
 
 =======
 
