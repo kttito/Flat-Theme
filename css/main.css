@@ -190,6 +190,10 @@ ul{
 .content-inf{
 	background-color: #F5F5F5;
 }
+.content-inf .info_1 .btn-default{
+	background-color: #D9534F;
+	color: #fff;
+}
 .content-inf .info_1{
 	margin-top: 50px;
 }
