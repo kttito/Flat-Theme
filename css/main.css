@@ -104,6 +104,23 @@ ul{
 	color: #fff;
 	font-size: 35px;
 }
+/*menucito verde*/
+.list-nav1{
+	padding-left: 20px;
+	padding-top: 50px;
+}
+.list-nav1 li{
+	display: inline-block;
+	text-decoration: none;
+	padding-right: 10px;
+}
+.list-nav1 a{
+	color: #FFFFFF;
+}
+.list-nav1 a:hover{
+	color: #fff;
+}
+/*end*/
 /*------Project------*/
 .content-project{
 	background-color: #F5F5F5;
@@ -183,13 +200,6 @@ ul{
 	text-decoration: none;
 	color: #BEEFD3;
 }
-.home{
-	padding-top: 45px;
-	padding-left: 50px;
-}
-.home a:hover{
-	color: #fff;
-}
 
 .content-inf{
 	background-color: #F5F5F5;
@@ -229,21 +239,6 @@ ul{
 	background-color: #34495E;
 }
 /*Blog-item*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*About us*/
