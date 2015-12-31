@@ -3,7 +3,6 @@
 .clearfix {
   *zoom: 1;
 }
-
 .clearfix:before,
 .clearfix:after {
   display: table;
@@ -13,15 +12,38 @@
 .clearfix:after {
   clear: both;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5{
+   font-family: 'Roboto', sans-serif;
+}
+.m-tp-30px{
+	margin-top: 30px;
+	border-radius: 5px;
+}
+.m-tp-40px{
+	margin-top: 40px;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color: #34495E;
+}
 .header .navbar{
 	background-color: #34495E;
 	border-color: #34495E;
 	border-radius: 0;
 }
 .navbar-header img{
-	/*margin-left: 44px;
-	margin-top: 9px;*/
+	padding-top: 8px;
 }
 .navbar-default{
 	margin-bottom: 0;
@@ -140,7 +162,7 @@
 .list-nav a{
 	color: #B1B8BD;
 }
-.btn-default {
+.foot1 .btn-default {
     color: #fff;
     background-color: #D9534F;
     border-color: #D9534F;
@@ -168,8 +190,35 @@
 .content-inf{
 	background-color: #F5F5F5;
 }
+.content-inf .info_1{
+	margin-top: 50px;
+}
+.content-inf .img_1{
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
 .content-inf .prof{
 	background-color: #fff;
+}
+.content-inf .prof img{
+	width: 100%;
+	border-radius: 5px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.prof{
+	margin-top: 50px;
+	border-radius: 5px;
+}
+.prof .contenido{
+	padding: 0 0 20px 20px;
+}
+.content-inf .numer{
+	margin: 20px 0 40px 0;
+}
+.numer .active > a{
+	background-color: #34495E;
 }
 
 /*About us*/
@@ -237,8 +286,6 @@ border-radius: 50%;
 padding-top: 10px;
 text-align: center;
 }
-
-=======
 .prof ul{
 	list-style: none;
 	padding: 10px;
@@ -258,9 +305,7 @@ text-align: center;
 .content-contac .msj-form{
 	padding-top: 57px;
 }
-
 /*portafolio*/
-
 .portafolio{
 	background-color: #f4f4f4;
 	padding: 40px 0 40px 0;
@@ -285,7 +330,6 @@ text-align: center;
 	padding-left: 10px;
 	text-align: left;
 }
-
 /*Servicios*/
 .servicios{
 	background-color: #f4f4f4;
@@ -306,7 +350,6 @@ text-align: center;
 	color: #fff;
 	font-size: 35px;
 }
-
 /*separador*/
 hr.separator {
 margin: 0 auto;
@@ -336,33 +379,6 @@ border-top: 1px solid #e5dada;
 .opinion h4{
 	margin-left: 20px;
 }
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 @media screen and (max-width: 768px) {
     .carousel-caption{
         bottom: 5%;
