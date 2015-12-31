@@ -54,9 +54,12 @@ ul{
 .navbar-default .navbar-nav>li>a:hover{
 	color: #fff;
 }
-.navbar-collapse .navbar-nav.navbar-right:last-child{
+/*.navbar-collapse .navbar-nav.navbar-right:last-child{
 	margin-right: 44px;
 }
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: -50px;
+}*/
 .navbar-nav > li > a {
     padding-top: 8px;
     padding-bottom: 11px;
@@ -182,6 +185,7 @@ ul{
 }
 .home{
 	padding-top: 45px;
+	padding-left: 50px;
 }
 .home a:hover{
 	color: #fff;
@@ -224,6 +228,23 @@ ul{
 .numer .active > a{
 	background-color: #34495E;
 }
+/*Blog-item*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*About us*/
 .bloque{
