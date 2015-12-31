@@ -92,9 +92,9 @@
 /*clientes*/
 .clients{
 	background: #E74C3C;
-	height: 400px;
 	color: #FFFFFF;
 	padding-top:40px;
+	padding-bottom: 40px;
 }
 .titulos{
 	margin-top: 30px;
@@ -171,67 +171,6 @@
 .content-inf .prof{
 	background-color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*About us*/
 .bloque{
@@ -348,9 +287,8 @@ text-align: center;
 }
 
 /*Servicios*/
-.services{
-	background-color: #2ECC71;
-	color: #fff;
+.servicios{
+	background-color: #f4f4f4;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -369,6 +307,35 @@ text-align: center;
 	font-size: 35px;
 }
 
+/*separador*/
+hr.separator {
+margin: 0 auto;
+border:none;
+border-bottom: 1px solid #FFFFFF;
+border-top: 1px solid #e5dada;
+}
+.fondo{
+	background: #f4f4f4;
+}
+/*clientes2*/
+.clients2{
+	background: #f4f4f4;
+	padding-top:40px;
+	padding-bottom: 40px;
+}
+.opinion{
+	margin-top: 30px;
+}
+.opinion .opi1{
+	border-left: 4px solid #e8e8e8;
+}
+.opinion p{
+	font-size: small;
+	margin-left: 20px;
+}
+.opinion h4{
+	margin-left: 20px;
+}
 =======
 
 
