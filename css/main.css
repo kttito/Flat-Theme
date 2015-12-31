@@ -240,7 +240,46 @@ ul{
 }
 /*Blog-item*/
 
-
+.prof .big{
+	font-size: 21px;
+	font-weight: normal;
+	padding-right: 10px;
+}
+.tags{
+	margin: 20px;
+}
+.autor{
+	background-color: #F5F5F5;
+	padding: 20px;
+	margin: 20px;
+}
+.comment-user{
+	background-color: #F5F5F5;
+	padding: 20px;
+	margin: 20px 20px 0px 0px;
+}
+.comentarios h3{
+	margin-left: 20px;
+}
+.content-inf .prof img.avatar {
+    width: 100%;
+    border-radius: 50%;
+    padding: 20px 20px 20px 20px;
+}
+.margin-t{
+	margin-left: 20px;
+}
+.comment-form{
+	padding: 20px;
+}
+.pull-right a{
+	text-decoration: none;
+	color: #34495E;
+}
+.pull-right{
+	color: #34495E;
+}
+>>>>>>>
 /*About us*/
 .bloque{
 	background: #E6E6E6;
