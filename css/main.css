@@ -105,21 +105,18 @@ ul{
 	font-size: 35px;
 }
 /*menucito verde*/
-.list-nav1{
-	padding-left: 20px;
+.breadcrumb{
+	background: transparent;
 	padding-top: 50px;
 }
-.list-nav1 li{
-	display: inline-block;
-	text-decoration: none;
-	padding-right: 10px;
-}
-.list-nav1 a{
+.breadcrumb a{
 	color: #FFFFFF;
 }
-.list-nav1 a:hover{
-	color: #fff;
+.breadcrumb a:hover{
+	color: #D8D8D8;
+	text-decoration: none;
 }
+
 /*end*/
 /*------Project------*/
 .content-project{
@@ -181,6 +178,10 @@ ul{
 }
 .list-nav a{
 	color: #B1B8BD;
+}
+.list-nav a:hover{
+text-decoration: none;
+color: #D8D8D8;
 }
 .foot1 .btn-default {
     color: #fff;
